@@ -1,7 +1,7 @@
 // const fetchData = async (searchTerm) => {
 //     const response = await axios.get('http://www.omdbapi.com/', {
 //         params: {
-//             apikey: '40a83d1b',
+//             apikey: 'd9edc03c',
 //             s: searchTerm
 //         }
 //     })
@@ -32,7 +32,7 @@ autoCompleteConfig = {
         apiMovieURL = 'http://www.omdbapi.com/'
         const response = await axios.get(apiMovieURL, {
             params: {
-                apikey: '40a83d1b',
+                apikey: 'd9edc03c',
                 s: searchTerm
             }
         })
